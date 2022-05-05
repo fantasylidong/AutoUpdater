@@ -1,0 +1,25 @@
+"Updater"
+{
+	"Information"
+	{
+		"Version"
+		{
+			"Latest"	"1.0.1"
+		}
+		
+		"Notes"	"More info @ https://github.com/fantasylidong/"
+		"Notes"	"Removed ReloadPlugin() from updater.inc."
+		"Notes"	"Added Updater_ReloadPlugin() native to replace 'ReloadPlugin()'"
+	}
+	
+	"Files"
+	{		
+		"Patch"
+		{
+			"Plugin"	"Path_SM/plugins/autoupdate_sir.smx"
+			"Plugin"	"Path_SM/plugins/l4d_stats.smx"
+		}
+		"Plugin"	"Path_SM/plugins/autoupdate_sir.smx"
+		"Plugin"	"Path_SM/plugins/l4d_stats.smx"
+	}
+}
